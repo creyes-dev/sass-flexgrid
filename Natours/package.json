@@ -9,7 +9,8 @@
   "author": "Cristian",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "live-server": "^1.2.1"
   },
   "devDependencies": {
     "node-sass": "^4.12.0"
