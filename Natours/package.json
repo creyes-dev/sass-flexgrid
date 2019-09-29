@@ -6,16 +6,19 @@
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
-    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css"
+    "concat:css": "concat -o css/style.concat.css css/icon-font.css css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 5 versions' css/style.concat.css -o css/style.prefix.css"
   },
   "author": "Cristian",
   "license": "ISC",
   "dependencies": {
+    "autoprefixer": "^9.6.1",
     "jquery": "^3.4.1",
     "live-server": "^1.2.1"
   },
   "devDependencies": {
     "concat": "^1.0.3",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "postcss-cli": "^6.1.3"
   }
 }
