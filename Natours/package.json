@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.6.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "live-server": "^1.2.1"
   },
   "devDependencies": {
